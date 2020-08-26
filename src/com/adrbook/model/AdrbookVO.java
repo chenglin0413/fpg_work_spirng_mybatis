@@ -13,20 +13,7 @@ public class AdrbookVO implements Serializable {
 	private String timestamp;
 	private String brow_ver;
 	private String ip;
-	public AdrbookVO(String xuid, String name, String tel, String gender, String type, Integer type_index, String notes,
-			String timestamp,String ip,String brow_ver) {
-		super();
-		this.xuid = xuid;
-		this.name = name;
-		this.tel = tel;
-		this.gender = gender;
-		this.type = type;
-		this.type_index = type_index;
-		this.notes = notes;
-		this.timestamp = timestamp;
-		this.ip = timestamp;
-		this.brow_ver = timestamp;
-	}
+
 	public String getXuid() {
 		return xuid;
 	}
